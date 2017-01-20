@@ -28,12 +28,21 @@ Ryan Dahl，2009，在一次 JSConf 上介绍了 NodeJS。
 
 ### 作为服务端- Node 内置 JS 模块 http server
 
+文件：`app-http-server.js`
+
 ### 作为客户端-爬虫示例，请求一个网页，保存之
+
+文件：`request-web-page.js`
 
 ### 深入数据-连接mysql的服务示例
 
-## 利用多核CPU
+文件：`app-using-mysql.js`
+
+## TODO:利用多核CPU
+
 ### 多个 node 进程实例
+
+TODO
 
 一个 Node 进程只能利用一个核。
 
@@ -41,6 +50,23 @@ Ryan Dahl，2009，在一次 JSConf 上介绍了 NodeJS。
 
 TODO
 
+## NodeJS 应用场景总结
+
+### HTTP 服务器
+
+NodeJS 设计之初的目的。是应用非常广泛的场景。例如，猫眼PC版（http://maoyan.com），猫眼选座 i 版，淘宝……
+
+### 前端构建
+
+因为具备了 I/O 能力，所以可以使用 JS 来分析、处理文件，进行压缩、uglify，或者进行文件依赖关系解析然后打包到一起并输出文件。
+
+### 脚本程序
+
+就像 Python、Ruby 一样，可以随便写各种各样的JS脚本程序运行。
+
+## NodeJS 未来不完全展望
+
++ 微服务
 
 ## 参考资料
 
